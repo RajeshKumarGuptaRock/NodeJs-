@@ -1,0 +1,47 @@
+console.log("Welcome");
+
+//REPL
+Node
+
+// create directory
+mkdir nodeProject
+
+// create file
+type nul  > index.js
+
+// go to the editor mode
+node
+.editor
+ctl + D to return
+
+// Exit from editor
+.exit;
+
+//Node.js core Module
+A set of function you want to include in your application. it is a set of built in  module
+
+//create packages.json
+npm init
+
+// Install chalk for coloring output
+npm i chalk@4.1.2
+
+// Install validator
+npm i validator
+
+// Install nodemon
+npm i nodemon -g
+nodemon -v
+
+Note : 
+Problem :: when you got the issue like as
+nodemon : File C:\Users\HP\AppData\Roaming\npm\nodemon.ps1 cannot be loaded because running scripts is disabled on this system. For more information, 
+see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170.
+At line:1 char:1
+
+Solution : 
+1. Open Windows PowerShell with Run as Administrator
+2. Run this command: Set-ExecutionPolicy Unrestricted
+
+and run nodemon <filename.js> for first time then it will run automatically on any changes into file.
+for exit type ctrl + c
