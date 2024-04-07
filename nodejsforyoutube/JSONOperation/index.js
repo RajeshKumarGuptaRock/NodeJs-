@@ -1,8 +1,8 @@
 const fs = require("fs");
 // Create bioData Object
 const bioData = {
-name : "Rajesh",
-Age : 30
+    name : "Rajesh",
+    Age : 30
 };
 
 // Get Object Value
